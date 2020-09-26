@@ -1,0 +1,14 @@
+@mixin btn($font-size, $bgc, $border-color, $width) {
+    font-family: 'Lato', sans-serif;
+    font-size: $font-size;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    width: $width;
+    background-color: $bgc;
+    border: 1px solid $border-color;
+    border-radius: 3px;
+    padding: 17px 0;
+    cursor: pointer;
+    outline: none;
+}
